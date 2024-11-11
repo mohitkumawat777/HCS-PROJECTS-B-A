@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+div{
+    margin: 100px auto 0 auto;
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(128, 128, 128, 0.666);
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+}
+p{
+user-select: none;
+    display: block;
+    padding: 35px;
+    font-size: 30px;
+}button{
+    width:32%;
+    height:40px ;
+    border-radius: 20px;
+    border: none;
+    background-color: lightskyblue;
+    margin-top: 0px;
+    user-select: none;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
